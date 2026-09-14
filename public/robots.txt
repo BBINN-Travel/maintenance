@@ -1,0 +1,13 @@
+# bbinnvinales.com — robot exclusion
+# The site is temporarily under maintenance (HTTP 503).
+# The full sitemap remains published so existing URLs keep their standing.
+
+User-agent: *
+Allow: /
+
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /feed/
+Disallow: /trackback/
+
+Sitemap: https://www.bbinnvinales.com/sitemap_index.xml
